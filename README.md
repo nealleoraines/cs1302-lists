@@ -109,6 +109,41 @@ You may earn extra credit for each of the tasks listed below:
     You must also include <code>SortedLinkedList</code> in your report in order
     to receive this extra credit. 
 
+## Linked Lists
+
+In computer science, a linked list is a data structure consisting of a group of 
+objects called <code>nodes</code> which together represent a sequence. Under the 
+simplest form, each <code>node</code> is composed of a <code>value</code> and a 
+reference (in other words, a link) to the <code>next</code> node in the sequence. 
+We call this data structure a singly linked list. In general, the last node in
+the sequence should point, in its <code>next</code> reference, to the first node.
+
+A slightly more complex variant adds some additional links. When each <code>node</code>
+is composed of a <code>value</code> and a reference to both the <code>previous</code>
+and <code>next</code> nodes in the sequence, we call the data structure a doubly
+linked list. 
+
+The way these data structures are usually implemented according to the following
+general guidelines:
+
+ 1. Create a node class that includes a place to store the value of the element
+    that is to be stored in the node as well as the appropriate number of
+    reference variables to store the links (<code>next</code> for a singly linked 
+    list and both <code>previous</code> and <code>next</code> for a doubly linked 
+    list).
+ 2. In the list class, have a reference variable called <code>head</code> that
+    points to the first node in the sequence. When the size of the list is 0,
+    this reference is null. When the first element is added to the list, a node
+    object is created, the element is stored in the node, and the <code>head</code>
+    is then set to reference that node.
+ 3. Whenever an element is added to the list, a node object is created, the element 
+    is stored in the node, and the node is added to the sequence in the appropriate
+    place by adjusting the links.
+ 4. Whenever an element is removed from the list, the links of the nearby nodes
+    are altered so that the node that contains the element is no longer in the
+    sequence.
+ 5. Searching is performed by traversing the links.
+
 ## Resources
 
 The files for this project are hosted Github using <code>git</code>. They can be
