@@ -17,7 +17,8 @@ contained in the Resources section below in order to do your development on
 
 ## Project Description
 
-Your goal is to 
+Your goal is to persue an adventure in the land of lists! This project is pretty
+straight forward. Perform the project tasks listed below. 
 
 ## Project Tasks
 
@@ -64,7 +65,9 @@ Before you submit your project, you need to perform the following tasks:
     well as the worst-case time complexity of each method expressed in Big-0
     notation. When providing the growth functions and time complexities, you will
     need to justify and explain why the functions and time complexities you
-    provided work based on your code.
+    provided work based on your code. You may submit this portion of the poject
+    in one of the following formats: PDF, LaTeX, or Markdown. No other formats 
+    will be accepted. 
    
  6. Update the <code>README.md</code> in your project directory to contain the 
     following information at the top of the file (updating it with your own 
